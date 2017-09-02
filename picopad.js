@@ -75,12 +75,12 @@
     '<div style="width:100px; height:100px; ">&nbsp;</div>' +
     '<div style="width:100px; height:100px; background:red;" onMouseDown="window.pressZ()" onMouseUp="window.releaseZ()" ontouchstart="window.pressZ()" ontouchend="window.releaseZ()">&nbsp;</div>' +
     '<div style="width:100px; height:100px; ">&nbsp;</div>' +
-    '</div>' +
+    '</div>' /*  +
     '<div style="display:inline-block;">' +
     '<div style="width:100px; height:100px; ">&nbsp;</div>' +
     '<div style="width:100px; height:100px; background:blue;" onMouseDown="window.pressX()" onMouseUp="window.releaseX()" ontouchstart="window.pressX()" ontouchend="window.releaseX()">&nbsp;</div>' +
     '<div style="width:100px; height:100px; ">&nbsp;</div>' +
-    '</div>'
+    '</div>' */
   insertAfter(
     document.getElementById('canvas') || document.getElementById('playarea_0'),
     el
